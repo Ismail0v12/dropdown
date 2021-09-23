@@ -5,6 +5,8 @@
 	margin: 0;
 	padding: 0;
 
+	user-select: none;
+
 	font-family: 'TT Norms Pro', sans-serif;
 }
 
@@ -28,5 +30,3 @@ body {
 		background-position: 0 50%;
 	}
 }
-
-

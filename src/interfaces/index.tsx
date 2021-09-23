@@ -28,5 +28,6 @@ export interface HeaderProps {
     selectedItems: ISelected[];
     onSelected: (id: number) => void;
     onDropdownShow: () => void;
+    dropdownShow: boolean;
 }
 

@@ -49,3 +49,14 @@
 .selected_items div svg {
 	cursor: pointer;
 }
+
+.arrow_down {
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.active {
+	cursor: pointer;
+
+	transform: rotate(180deg);
+}

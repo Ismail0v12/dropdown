@@ -12,6 +12,8 @@
 	margin-top: 10px;
 	padding: 16px;
 
+	user-select: none;
+
 	animation: appWrapper 0.3s linear;
 
 	border-radius: 10px;

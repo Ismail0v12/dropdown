@@ -97,11 +97,14 @@ const App = (): JSX.Element => {
             <Header
                 onSelected={onSelectItem}
                 onDropdownShow={() => setDropdownShow((d: boolean) => !d)}
-                selectedItems={selectedItem}/>
+                selectedItems={selectedItem}
+                dropdownShow={dropdownShow}
+            />
+            {dropdownShow &&
             <div className={styles.app_wrapper}>
                 <SearchBar onSearchChange={onSearchChange}/>
                 <DropdownList isChecked={isChecked} data={visibleItems}/>
-            </div>
+            </div>}
         </div>
     );
 };
