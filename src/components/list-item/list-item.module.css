@@ -1,0 +1,48 @@
+.list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 100%;
+	padding: 17px 4px;
+
+	cursor: pointer;
+
+	user-select: none;
+
+	border-bottom: 1px solid #F4F4F4;
+	background-color: #FFF;
+}
+
+.list:last-child {
+	border-bottom: none;
+}
+
+.list label {
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+
+	cursor: pointer;
+
+	color: #333;
+
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.list input[type="checkbox" i] {
+	box-sizing: border-box;
+	width: 24px;
+	height: 24px;
+
+	cursor: pointer;
+
+	border: 2px solid #C1C1C1;
+	border-radius: 4px;
+}
+
+.list label img {
+	margin-right: 10px;
+}

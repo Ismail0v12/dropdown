@@ -1,0 +1,30 @@
+.app {
+	width: 507px;
+	min-height: 530px;
+	margin: 0 auto;
+	padding: 47px 54px 65px 54px;
+
+	box-shadow: 0 4px 32px rgba(51, 51, 51, 0.15);
+}
+
+.app_wrapper {
+	min-height: 368px;
+	margin-top: 10px;
+	padding: 16px;
+
+	animation: appWrapper 0.3s linear;
+
+	border-radius: 10px;
+	background-color: #FFF;
+	box-shadow: 0 4px 32px rgba(51, 51, 51, 0.15);
+}
+
+@keyframes appWrapper {
+	from {
+		transform: translate3d(0, 50px, 0);
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
